@@ -3,6 +3,7 @@ package day38_inhertance_overriding;
 public class Personel {
     String statu="Pesonel";
     String haklar="Tum personel esit haklara sahiptir";
+    public String izin="Tum personel 4 hafta izin kullanabilir";
 
     public void mesai() {
         System.out.println("Tum personel 5 gun, gunde 8 saat calisir.");
