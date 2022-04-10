@@ -17,8 +17,8 @@ public class OverridingChild extends OverridingParent{
         obj2.methot1();//Parent Class method1 burasi hata hoca cagirinca chil Class'dan geldi
 
         OverridingParent obj3=new OverridingParent();
-        obj2.method2();//
-        obj2.methot1();//
+        obj2.method2();//Parent Class method2
+        obj2.methot1();//Parent Class method1
 
 
 
