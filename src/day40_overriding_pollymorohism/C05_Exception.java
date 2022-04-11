@@ -11,13 +11,18 @@ public class C05_Exception {
         do {
             System.out.println("Lutfen toplamak istediginiz sayiyi giriniz \n" +
                     "Cikmak icin Q'a bas!");
-            sayi=scan.nextInt();
-            toplam +=sayi;
+            try {
+                sayi=scan.nextInt();
+                toplam +=sayi;
+            }catch (InputMismatchException e){
+   String hataliGiriis=scan.next();
+                if (hataliGiriis.equalsIgnoreCase("q") ) {
+                    System.out.println("girdiginiz sayilarin toplami : ");
+                }else System.out.println("hatali giris");
+            }
+
         }while (toplam <500);
-         try {
+        System.out.println( toplam);
 
-         }catch (InputMismatchException e){
-
-         }
     }
 }
