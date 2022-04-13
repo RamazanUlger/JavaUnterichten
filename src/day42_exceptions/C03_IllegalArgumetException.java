@@ -21,5 +21,6 @@ public class C03_IllegalArgumetException {
             throw new IllegalArgumentException();
 
         }
+
     }
 }
