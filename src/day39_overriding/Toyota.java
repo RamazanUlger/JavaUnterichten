@@ -1,6 +1,6 @@
 package day39_overriding;
 
-public class Toyota extends Araba {
+public  class Toyota extends Araba {
     protected String hiz = "Toyoto araclar maksimum 220k/h hiz yaparlar ";
     protected String marka = "Toyota";
     protected String sirketMerkezi = "Japan";
