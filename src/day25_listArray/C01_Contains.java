@@ -1,7 +1,6 @@
-package day25_ListArray;
+package day25_listArray;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class C01_Contains {

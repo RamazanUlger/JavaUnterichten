@@ -2,7 +2,7 @@ package day44_abstract_interface;
 
 public interface I03_Interface {
     /*
-    Tam soyutlama=ful Abstraction olusturmak istersek
+    Tam soyutlama=full Abstraction olusturmak istersek
     Abstract class'lari degil interface kullaniriz
 
     Interface'lerde sadece Abstract methodlar bulunur.

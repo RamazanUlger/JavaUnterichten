@@ -1,4 +1,4 @@
-package day27_Constructer;
+package day27_constructer;
 
 public class C02_Const_02 {
     C01_Const_01 obj1=new C01_Const_01();//default constructer devrede

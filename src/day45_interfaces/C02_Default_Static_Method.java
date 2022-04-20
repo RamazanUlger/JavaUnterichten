@@ -2,6 +2,8 @@ package day45_interfaces;
 
 import day15_methodCreation.C04;
 
+import java.util.RandomAccess;
+
 public class C02_Default_Static_Method implements I01__Default_Static {
     public static void main(String[] args) {
      //Interface'deki static olarak tanimlanan methodlara

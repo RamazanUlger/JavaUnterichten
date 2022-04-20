@@ -1,7 +1,6 @@
-package day25_ListArray;
+package day25_listArray;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class C02_Arrays {
     public static void main(String[] args) {
